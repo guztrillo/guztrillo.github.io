@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+     font-family: 'kleintext-book';
+     src: url('./webfonts/kleintext-book-webfont.woff2') format('woff2'),
+          url('./webfonts/kleintext-book-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ 
+ }
+
+ @font-face {
+     font-family: 'moskextra-bold_800';
+     src: url('./webfonts/mosk_extra-bold_800-webfont.woff2') format('woff2'),
+          url('./webfonts/mosk_extra-bold_800-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ 
+ }
+
+ @font-face {
+     font-family: 'gogh-extrabold';
+     src: url('./webfonts/gogh-extrabold-webfont.woff2') format('woff2'),
+          url('./webfonts/gogh-extrabold-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ 
+ }
+
+@layer components {
+     .title {
+          @apply h-20 flex flex-row justify-center items-center rounded-b-lg text-coolGray-200 bg-coolGray-600 group-hover:bg-indigo-900 transition-colors ease-in-out
+     }
+     .picture {
+          @apply object-cover w-full h-full rounded-t-lg bg-transparent
+     }
+     .card {
+          @apply h-auto shadow-first hover:shadow-sec rounded-lg transition-shadow ease-in-out
+     }
+     .contact-links {
+          @apply space-x-2.5 flex items-center border-none hover:text-indigo-900 hover:font-bold hover:scale-110 transform transition-transform duration-300 ease-in-out text-coolGray-700
+     }
+     .container-pic{
+          @apply h-80 opacity-60 group-hover:opacity-100 transition-opacity ease-in-out
+     }
+     .link {
+          @apply border-none hover:border-solid border-b-2 hover:border-coolGray-200
+     }
+}
