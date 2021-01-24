@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Contact extends Component {
      render() {
           return (
-               <section id="contact" className="flex flex-col h-auto bg-gradient-to-b from-coolGray-300 to-coolGray-400 pb-10 sm:pb-0 text-lg">
+               <section id="contact" className="flex flex-col h-auto bg-gradient-to-b from-coolGray-300 to-coolGray-400 pt-14 pb-10 sm:pb-0 text-lg">
                     <div id="contact-title" className="h-52 flex flex-col items-center justify-center">
                          <h2 className="text-3xl font-gogh text-indigo-900 text-center">Please hire me, I'm Hungry
                          <p className="text-base text-center">(for knowledge)</p>
