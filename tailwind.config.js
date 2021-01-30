@@ -34,6 +34,7 @@ module.exports = {
        extend: {
         fontWeight: ['hover'],
         borderStyle: ['hover'],
+        textDecoration: ['active'],
        }
      },
      plugins: [],
